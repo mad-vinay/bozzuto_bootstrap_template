@@ -371,6 +371,16 @@
 	div.compare-wrap {
 	    width: 70vw;
 	}
+	div#tab-2 select,
+	div#tab-2 .form-control {
+	    width: 80%;
+	}
+	div#tab-2 .selectbox-inline select:last-child {
+	    width: 30%;
+	}
+	div#tab-2 .selectbox-inline select:first-child {
+    	width: 70%;
+    }
 
 }
 

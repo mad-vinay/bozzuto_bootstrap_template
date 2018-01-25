@@ -1829,3 +1829,69 @@ footer.style1 .copyright .right {
     padding: 5px;
     font-size: 12px;
 }
+#tab-2 .container-fluid.text-left {
+    background: linear-gradient(to right, #d7dfe1 , #f2ebeb);
+    padding: 4vw 10vw;
+}
+#tab-2 .container-fluid {
+    padding: 0;
+}
+#tab-2 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+#tab-2 .container-fluid p {
+    margin: 45px 0;
+}
+#tab-2  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+#tab-2  select {
+	width: 50%;
+    background: #fff;
+    border: 1px solid #6bb537;
+    border-radius: 5px;	
+}
+#tab-2   .checkbox input {
+	-webkit-appearance: checkbox;
+	    margin-left: 15px;
+    width: 20px;
+    height: 18px;
+}
+#tab-2  .radio label, .checkbox label {
+	padding: 0;
+}
+#tab-2 .selectbox-inline select {
+    width: 20%;
+    border-radius: 0;
+}
+.selectbox-inline {
+    display: flex;
+}
+#tab-2 .selectbox-inline select:first-child {
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-right: 0;
+    border-bottom-left-radius: 5px;
+}
+#tab-2 .selectbox-inline select:last-child {
+    width: 25%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#tab-2 .form-control {
+	    height: 30px;
+    width: 50%;
+}
+#tab-2 button.btn.btn-success {
+    width: 100%;
+}
+.hestimator-wrapper {
+    margin-bottom: 40px;
+}
+#tab-2 .container-fluid.text-left.btn-wrap {
+    padding: 0;
+    width: 75%;
+}
