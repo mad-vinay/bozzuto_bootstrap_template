@@ -37,12 +37,6 @@
 	.width-90 {
 		width: 80% !important;
 	}
-	.hestimator-wrapper table.table {
-    	width: 95%;
-    }
-    div.select-box {
-	    width: 91%;
-	}
 	
 }
 /* @media (min-width: 1300px) {
@@ -376,6 +370,14 @@
 	}
 	div.compare-wrap {
 	    width: 70vw;
+	}
+
+}
+
+@media (max-width: 400px) {
+	
+	.table-wrap {
+	    overflow-y: hidden;
 	}
 
 }

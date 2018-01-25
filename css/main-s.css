@@ -1751,7 +1751,7 @@ footer.style1 .copyright .right {
 .compare-wrap {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 450px;
     margin: 75px auto;
     padding: 25px;
@@ -1759,13 +1759,13 @@ footer.style1 .copyright .right {
     border-radius: 5px;
 }
 .compare-wrap a {
-	color: #000;
-	font-size: 13px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
 }
 .tab-content{
 	display: none;
 	background: #ededed;
-	padding: 15px;
 }
 .tab-content.current{
 	display: inherit;
@@ -1789,9 +1789,7 @@ footer.style1 .copyright .right {
     border-radius: 10px;
 }
 .hestimator-wrapper td {
-    width: 13%;
-}
-.hestimator-wrapper td {
+	vertical-align: middle !important;
     width: 13%;
     padding: 35px 1vw !important;
     text-align: left;
@@ -1811,11 +1809,7 @@ footer.style1 .copyright .right {
     border-right: none;
 }
 .hestimator-wrapper .table {
-	width: 90%;
 	margin: 0 auto 25px;
-}
-.table-wrap {
-    overflow-y: hidden;
 }
 .select-box {
     display: flex;
@@ -1823,7 +1817,6 @@ footer.style1 .copyright .right {
     justify-content: center;
     background: #ddd;
     margin: 35px 0;
-    width: 88%;
     margin: 50px auto;
     padding: 30px 0;
 }
