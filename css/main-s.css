@@ -1734,18 +1734,14 @@ footer.style1 .copyright .right {
 .header-text-wrap h1:first-letter {
     color: #6bb537;
 }
-.hestimator-wrapper .l-banner .cellWrap {
-	width: 100%;
+.hestimator-wrapper .l-banner .row {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 75px 0 0 0;
+    justify-content: center;
+    margin: 75px 0;
 }
 .hestimator-wrapper .l-banner .cellWrap .cell span {
     color: #000;
-}
-.hestimator-wrapper .cell img {
-    width: 80px;
 }
 .hestimator-wrapper .cell {
     cursor: pointer;
@@ -1774,7 +1770,10 @@ footer.style1 .copyright .right {
 }
 .hestimator-wrapper .cell.tab-link.current img {
     border: 4px solid #ee5f5f;
-    border-radius: 45px;
+    border-radius: 50%;
+}
+.hestimator-wrapper .cell.tab-link img {
+    width: 80px;
 }
 .hestimator-wrapper .tab-content {
 	background: transparent;
