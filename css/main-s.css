@@ -1745,6 +1745,8 @@ footer.style1 .copyright .right {
 }
 .hestimator-wrapper .cell {
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 .compare-wrap {
     display: flex;
